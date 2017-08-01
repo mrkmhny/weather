@@ -1,0 +1,28 @@
+body {
+  margin-top: 30px;
+    background-image: url(https://www.transparenttextures.com/patterns/black-felt.png);
+}
+
+div{
+  padding-top:20px;
+  margin: 0 auto;
+  max-width:600px;
+  text-align:center;
+  outline-style:none;
+}
+
+#cond-details{
+  display:inline;
+}
+
+#temp::selection {
+  background: transparent;
+} 
+
+#temp {
+  cursor: pointer;
+}
+
+.card-block {
+  box-shadow: 10px 10px 5px #888888;
+}
